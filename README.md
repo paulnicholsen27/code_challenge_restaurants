@@ -7,7 +7,8 @@
     - Push to your github
     - On github, click the green button “Create pull request”
     - Make sure your name is in the comment field, and submit
-  
+
+*Ask if you have questions or run into a problem!*
 
 # Object Relations Code Challenge - Restaurants
 
