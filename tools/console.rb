@@ -29,7 +29,7 @@ puts javier.restaurants.include?(review2)
 
 
 puts "Creates a new review and associates it with that customer and restaurant."
-puts review3 = diego.add_review(amore, 5) 
+puts review3 = diego.add_review(amore, 4) 
 
 puts "returns an array of all reviews for that restaurant"
 puts amore.reviews.include?(review3)
@@ -45,6 +45,15 @@ puts Customer.find_by_name("javier chisaka") == javier
 
 puts "given a string of a given name, returns an **array** containing all customers with that given name"
 puts Customer.find_all_by_given_name("diego").include?(diego)
+
+puts "****"
+
+puts amore.sum_all_reviews == 8
+
+puts 
+
+# puts "average star"
+# puts amore.average_star_rating == 4
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
