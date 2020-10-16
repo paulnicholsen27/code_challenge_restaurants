@@ -27,9 +27,9 @@ class Restaurant
   end
 
   def average_star_rating
-    
-  
-    
+    reviews_count = self.reviews.count
+
+    self.sum_all_reviews / reviews_count
   end
 
 end

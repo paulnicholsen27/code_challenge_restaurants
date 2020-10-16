@@ -50,7 +50,7 @@ puts "****"
 
 puts amore.sum_all_reviews == 8
 
-puts 
+puts amore.average_star_rating ==4
 
 # puts "average star"
 # puts amore.average_star_rating == 4
