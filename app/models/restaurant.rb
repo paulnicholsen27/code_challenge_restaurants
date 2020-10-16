@@ -12,8 +12,7 @@ class Restaurant
   end
 
   def customers
-    
-  
+    Customer.all.uniq?(self)
   end
 
   def average_star_rating #attempting to return array of just the rating to find average
