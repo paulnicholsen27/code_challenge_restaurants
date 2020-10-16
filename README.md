@@ -1,3 +1,14 @@
+# Steps to start and submit this assignment
+
+- Fork and clone as normal
+- Commit frequently!
+- When you are done:
+    - Final commit
+    - Push to your github
+    - On github, click the green button “Create pull request”
+    - Make sure your name is in the comment field, and submit
+  
+
 # Object Relations Code Challenge - Restaurants
 
 For this assignment, we'll be working with a Yelp-style domain.
