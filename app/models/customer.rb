@@ -22,7 +22,7 @@ class Customer
   end
 
   def num_reviews
-    Review.all.select { |review| review.customer == self }.sum { |review| review.rating }
+    Review.all.select { |review| review.customer == self }.count
   end
 
   def self.all
@@ -30,10 +30,10 @@ class Customer
   end
 
   def self.find_by_name(full_name)
-    Customer.all.find{|customer| customer.full_name == full_name}
+    Customer.all.find { |customer| customer.full_name == full_name }
   end
 
   def self.find_all_by_given_name(given_name)
-    Customer.all.select{|customer| customer.given_name.include?(given_name)}
+    Customer.all.select { |customer| customer.given_name.include?(given_name) }
   end
 end
